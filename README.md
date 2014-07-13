@@ -1,4 +1,5 @@
 Garden
 ======
 
-Garden Planning moduls
+Garden Planning modules
+
