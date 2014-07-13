@@ -1,5 +1,6 @@
 Garden
 ======
+
 Copyright Carmen Gagne 2014.  Dimensional Fund Advisors employees may copy. Everyone else must ask permission.
 
 Garden Planning modules

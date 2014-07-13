@@ -1,4 +1,5 @@
 /* Copyright Carmen Gagne 2014.  Dimensional Fund Advisors employees may copy. Everyone else must ask permission. */
+
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 
@@ -49,8 +50,7 @@ INSERT INTO DesiredVegYield SELECT * FROM VegYield WHERE (VegYield.AggieName IN 
 
 /*SELECT * FROM DesiredVegYield;*/
 
-/* Create output table with veg names and estimated number of squares to feed two people (1 ft or 1 plant or 1 hill = 1 square)
-
+/* Create output table with veg names and estimated number of squares to feed two people (1 ft or 1 plant or 1 hill = 1 square)*/
 CREATE TABLE NumSquares (AggieName TEXT, Squares INTEGER);
 
 /*SELECT DesiredVegYield.AggieName, SUBSTR(DesiredVegYield.ApproxPlantingPerPersonFresh, 1, 1) 'Min' FROM DesiredVegYield;*/
